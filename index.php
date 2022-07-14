@@ -26,9 +26,8 @@ echo $truck->isFull();
 $truck -> setChargement(600);
 echo $truck -> getChargement();
 echo $truck->isFull();
-
-
 var_dump($truck);
+
 
 /*$velo = new Velo;
 $velo ->color = 'blue';

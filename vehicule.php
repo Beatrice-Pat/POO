@@ -8,6 +8,7 @@ class Vehicle
     protected int $nbSeats;
     protected int $nbWheels;
     public function __construct(string $color, int $nbSeats)
+
     {
         $this->color = $color;
         $this->nbSeats = $nbSeats;
@@ -37,10 +38,6 @@ class Vehicle
             $this->currentSpeed = $currentSpeed;
         }
     }
-    /*public function getBrake(): void
-    {
-        return $this-> brake;
-    }*/
    
     public function getColor(): string
     {
@@ -67,3 +64,7 @@ class Vehicle
         $this->nbWheels = $nbWheels;
     }
 }
+class Skateboard extends Vehicle
+    {
+
+    }
